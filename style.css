@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.container{ 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.logo{
+    width: 500px
+    
+}
+
+button1 {
+    background-color: rgb(238, 36, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    
+    }
+    button2 {
+        background-color: rgb(238, 36, 0);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 20px;
+        font-size: large;
+        }
+
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    h{ font-weight: bold;
+        font-size: xx-large;
+    color: white;
+    padding:20px ;
+    }
+
+    p{color: white;
+    font-size: large;}
+
+    .tv{  display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        padding: 30px;}
+
+     .app{  display: flex;
+           justify-content: space-around;
+            flex-direction: row-reverse;
+            align-items: center;
+            text-align: center;
+            padding: 30px;}
+
+        .tv-view{
+            width: 700px;
+            height: 400px;
+            margin:20px
+        }
+        .mobile{width: 300px;
+            height: 600px;
+            margin:20px
+
+        }
+        
